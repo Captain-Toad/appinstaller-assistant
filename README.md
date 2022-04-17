@@ -2,7 +2,16 @@
 AppInstaller Assistant is a simple utility to create Linux desktop shortcut files to be placed in the DE's menu. It is written in Python 3, and uses the guizero library to render the graphical interface, and the os library to run scripts. It takes you through four steps in total, prompting you to enter necessary information.
 
 ## Installation
-To install AppInstaller Assistant, run these commands:
+To install AppInstaller Assistant:
+
+### NEW! Quick, one-command installtion (untested, fall back to long installtion if curl fails):
+
+```bash
+curl -L https://tinyurl.com/AppInstallerCURL | bash
+```
+###### Note: Because of the redirect, the -L (A.K.A. --location) flag allows CURL to accept HTTP redirects. 
+
+### Long Installation
 
 1. Clone the repository
 ```bash
