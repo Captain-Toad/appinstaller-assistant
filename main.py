@@ -67,7 +67,6 @@ def nxstep():
 		loadtext.hide()
 		finishtext.show()
 		stepcounter = stepcounter + 1
-		return
 	if stepcounter == 5:
 		sys.exit("The program finished running.")
 
