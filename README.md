@@ -4,7 +4,7 @@ AppInstaller Assistant is a simple utility to create Linux desktop shortcut file
 ## Installation
 To install AppInstaller Assistant:
 
-### NEW! Quick, one-command installtion (untested, fall back to long installtion if curl fails):
+### NEW! Quick, one-command installtion (not heavily tested, fall back to long installtion if it fails):
 
 ```bash
 curl -L https://tinyurl.com/AppInstallerCURL | bash; ./install.sh
