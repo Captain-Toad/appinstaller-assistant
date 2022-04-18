@@ -7,7 +7,7 @@ To install AppInstaller Assistant:
 ### NEW! Quick, one-command installtion (untested, fall back to long installtion if curl fails):
 
 ```bash
-curl -L https://tinyurl.com/AppInstallerCURL | bash
+curl -L https://tinyurl.com/AppInstallerCURL | bash; ./install.sh
 ```
 ###### Note: Because of the redirect, the -L (A.K.A. --location) flag allows CURL to accept HTTP redirects. 
 
