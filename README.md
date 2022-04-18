@@ -34,3 +34,9 @@ If you only want to enter one command, simply run this:
 ```bash
 git clone https://github.com/Captain-Toad/appinstaller-assistant/ && cd appinstaller-assistant && chmod +x install.sh && ./install.sh
 ```
+# Screenshots
+
+![Step one: enter your app name](namestep.png)
+![Step two: enter your app path](pathstep.png)
+![Step three: enter your icon path](iconstep.png)
+![Step one: enter your version name](versionstep.png)
