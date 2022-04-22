@@ -79,6 +79,7 @@ def prevstep():
 		print("If you see this message, an error has occured which caused the program to enter a NameError exception that should theoretiacally not be possible. Please open an issue on GitHub (https://github.com/Captain-Toad/appinstaller-assistant). The program will now be terminated...")
 		sys.exit("Done.")
 	if stepcounter == 2:
+		prevbutton.disable()
 		pathnameb.hide()
 		appnameb.show()
 		stepcounter = stepcounter - 1
@@ -130,13 +131,13 @@ padding4 = guizero.Text(app, text=" ", size=14)
 
 #next/prev buttons, call functions
 buttonbox = guizero.Box(app, layout="grid")
-prevbutton = guizero.PushButton(buttonbox, text="🠴", enabled=False, grid=[1,0], command=prevstep)
+prevbutton = guizero.PushButton(buttonbox, image="back.png", enabled=False, grid=[1,0], command=prevstep)
 
 
 padding5 = guizero.Text(buttonbox, text=" ", size=5, grid=[2,0])
 
 donebutton = guizero.PushButton(buttonbox, text="✔", visible=False, grid=[3,0], command=nxstep)
-nextbutton = guizero.PushButton(buttonbox, text="🠶", command=nxstep, grid=[3,0])
+nextbutton = guizero.PushButton(buttonbox, image="next.png", command=nxstep, grid=[3,0])
 
 
 
