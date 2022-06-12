@@ -40,3 +40,7 @@ git clone https://github.com/Captain-Toad/appinstaller-assistant/ && cd appinsta
 ![Step two: enter your app path](pathstep.png)
 ![Step three: enter your icon path](iconstep.png)
 ![Step one: enter your version name](versionstep.png)
+
+# Known Issues
+
+- You cannot use spaces in the name. Should be fixed soon.
